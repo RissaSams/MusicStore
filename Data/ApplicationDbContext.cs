@@ -19,5 +19,6 @@ namespace MusicStore.Data
             base.OnModelCreating(builder);
         }
         public DbSet<MusicStore.Models.Song> Songs{ get; set; }
+        public DbSet<MusicStore.Models.Customer> Customers { get; set; }
     }
 }
