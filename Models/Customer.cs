@@ -13,7 +13,7 @@ namespace MusicStore.Models
         public int Age { get; set; }
         public string FavoriteGenre { get; set; }
         public string FavoriteSong { get; set; }        
-        [Display(Name = "Album Cover")]
+        [Display(Name = "Profile Picture")]
         public string ImagePath { get; set; }
     }
 }
